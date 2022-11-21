@@ -1,0 +1,54 @@
+{
+    "properties": {
+        "Test": {
+            "bsonType": "string"
+        },
+        "__v": {
+            "bsonType": "int"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "author": {
+            "bsonType": "string"
+        },
+        "category": {
+            "bsonType": "string"
+        },
+        "content": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "children": {
+                        "bsonType": "array",
+                        "items": {
+                            "bsonType": "object",
+                            "properties": {
+                                "text": {
+                                    "bsonType": "string"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "createdAt": {
+            "bsonType": "date"
+        },
+        "publishedDate": {
+            "bsonType": "date"
+        },
+        "status": {
+            "bsonType": "string"
+        },
+        "title": {
+            "bsonType": "string"
+        },
+        "updatedAt": {
+            "bsonType": "date"
+        }
+    },
+    "title": "post"
+}
